@@ -1101,8 +1101,9 @@ html {
     line-height: inherit;
   }
   a {
-    color: #337ab7;
+    color:#fff;
     text-decoration: none;
+    font-weight: bold;
   }
   a:hover,
   a:focus {
@@ -1630,6 +1631,7 @@ html {
   }
   .col-xs-8 {
     width: 66.66666667%;
+    float: left;
   }
   .col-xs-7 {
     width: 58.33333333%;
@@ -1929,7 +1931,7 @@ html {
   }
   @media (min-width: 992px) {
     .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
-      float: left;
+      
     }
     .col-md-12 {
       width: 100%;
@@ -1945,6 +1947,7 @@ html {
     }
     .col-md-8 {
       width: 66.66666667%;
+      float: left;
     }
     .col-md-7 {
       width: 58.33333333%;
@@ -1954,12 +1957,15 @@ html {
     }
     .col-md-5 {
       width: 41.66666667%;
+      float: left;
     }
     .col-md-4 {
       width: 33.33333333%;
+      float: left;
     }
     .col-md-3 {
       width: 25%;
+      float: left;
     }
     .col-md-2 {
       width: 16.66666667%;
@@ -6147,7 +6153,8 @@ html {
   }
   .carousel-control {
     position: absolute;
-    top: 0;
+    margin-top: 1516px;
+    height: 50px;
     bottom: 0;
     left: 0;
     width: 15%;

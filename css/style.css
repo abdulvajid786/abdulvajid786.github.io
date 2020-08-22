@@ -804,13 +804,13 @@ li.dropdown.act a.w3_icons_act {
 }
 .style-grid-2-text_info p {
     color: #fff;
-    font-size: 2em;
+    font-size: 1.5em;
     letter-spacing: 1px;
     line-height: 1.9em;
 	margin:1em 0 2em 0;
 }
 .shop-button a {
-    background: #101306;
+    background: #d10e17;
     color: #fff;
     padding: 0.6em 1em;
     font-size: 1.9em;
@@ -825,7 +825,7 @@ li.dropdown.act a.w3_icons_act {
 .grids_sec_2_left {
     padding: 0;
     float: left;
-    width: 50%;
+    width: 100%;
 }
 .grids_sec_2_right {
     padding: 0;
@@ -844,10 +844,10 @@ li.dropdown.act a.w3_icons_act {
     background: #fb383b;
 }
 .grid_sec_info.last {
-    background: #0a0a0a;
+    background: #0c0a0a;
 }
 .shop-button.two a {
-    background: #fb383b;
+    background: #0e0b0b;
 }
 button.top_shoe_cart {
     font-size: 1.2em;
@@ -893,7 +893,7 @@ button.top_shoe_cart {
 
 .carousel-control.right {
     left: -66px;
-    top: 66px;
+ 
 }
 
 /* The indicators */
@@ -929,18 +929,19 @@ button.top_shoe_cart {
     background: #fb383b;
 }
 .mid_slider_text h5 {
-    font-size: 40px;
-    margin-top: 18px;
-    margin-bottom: 18px;
+    font-size: 5em;
+    
+ 
     color: #fff;
     letter-spacing: 1px;
     font-weight: 700;
-    text-align: left;
+    
 }
 .mid_slider_text {
-    padding: 2em 37em;
+    padding: 1em 37em;
     width: 100%;
-    margin-left: 28%;
+    padding-top: 1em;
+    
 }
 .carousel-indicators {
     position: absolute;
@@ -1254,12 +1255,15 @@ ul.short li a {
 }
 h3.head {
     text-align: center;
-    color: #111;
+    color: rgb(10, 97, 71);
     font-size: 3em;
     letter-spacing: 2px;
     font-weight: 700;
     text-shadow: rgba(0, 0, 0, 0.13) 2px 2px 3px;
     text-transform: uppercase;
+}
+.head-thanks{
+    text-align: center;
 }
 p.head_para {
     color: #999;
@@ -1387,6 +1391,63 @@ p.head_para {
     padding: 0.5em;
     margin-left: 10px;
 }
+.my-contact{
+    font-size: 23px;
+    background: #101306;
+    padding-top: 17px;
+    width: 260px;
+    height: 70px;
+    padding-bottom: 10;
+    padding-left:10px ;
+    letter-spacing: 4px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.contact-container{
+    width: 100%;
+    margin-top: 20px;
+}
+.become-class{
+    
+    background-color: black;
+    width: 100%;
+    height: 950px;
+    
+}
+.become-text{
+    width: 100%;
+    height: 1000px;
+    padding: 10px 10px 10px 10px;
+}
+.become-class h3{
+    padding-top: 25em;
+    padding-left: 2em;
+    color: #fff;
+    font-size: 2em;
+    font-weight: bold;
+
+}
+.become-class p{
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 20px;
+    padding-left: 2em;
+    
+}
+.become-btn{
+    width: 260px;
+    height: 70px;
+    background: red;
+    font-size: 2em;
+    padding:1em 1em ;
+    padding-bottom: 2em;
+    margin-left: 50px;
+    margin-top: 32px;
+}
+.become-btn:hover{
+    background: rgb(104, 224, 56);
+}
+
     /*--responsive--*/
 @media(max-width:1680px){
 	.style-image-1_info {
@@ -1539,6 +1600,13 @@ p.head_para {
     .search-hotel input[type="search"] {
         width: 75%;
     }
+    .become-class h3 {
+        padding-top: 7em;
+        padding-left: 2em;
+        color: #fff;
+        font-size: 2em;
+        font-weight: bold;
+    }
 }
 @media(max-width:1024px){
     ul.short {
@@ -1660,6 +1728,13 @@ p.head_para {
         width:50%;
         margin-bottom: 10px;
     }
+    .become-class h3 {
+        padding-top: 7em;
+        padding-left: 2em;
+        color: #fff;
+        font-size: 2em;
+        font-weight: bold;
+    }
     
     
     
@@ -1690,7 +1765,7 @@ p.head_para {
         height: 503px;
     }
     .style-grids_main {
-        width: 90%;
+        width: 100%;
     }
     .newsletter_w3layouts_agile {
         padding: 2em 1em;
@@ -1707,6 +1782,13 @@ p.head_para {
     .error_page form {
         margin: 0 auto;
         width: 70%;
+    }
+    .become-class h3 {
+        padding-top: 7em;
+        padding-left: 2em;
+        color: #fff;
+        font-size: 2em;
+        font-weight: bold;
     }
     
 @media(max-width:800px){
@@ -2010,7 +2092,13 @@ p.head_para {
         bottom: 16%;
         left: 37%;
     }
-    
+    .become-class h3 {
+        padding-top: 7em;
+        padding-left: 2em;
+        color: #fff;
+        font-size: 2em;
+        font-weight: bold;
+    }
 }
 @media(max-width:414px){
 	
@@ -2073,7 +2161,13 @@ p.head_para {
     .error_page h4 {
         font-size: 6em;
     }
-   
+    .become-class h3 {
+        padding-top: 7em;
+        padding-left: 2em;
+        color: #fff;
+        font-size: 2em;
+        font-weight: bold;
+    }
 @media(max-width:384px){
 	.cd-header-buttons {
         top: 18px;
@@ -2119,6 +2213,13 @@ p.head_para {
     .contact-map iframe {
         width: 100%;
         height: 200px;
+    }
+    .become-class h3 {
+        padding-top: 7em;
+        padding-left: 2em;
+        color: #fff;
+        font-size: 2em;
+        font-weight: bold;
     }
 }
 @media(max-width:375px){
@@ -2179,6 +2280,20 @@ p.head_para {
         font-weight: 300;
         letter-spacing: 1px;
     }
+    .become-class h3, p, .become-btn{
+        padding-top: 7em;
+        padding-left: 2em;
+        color: #fff;
+        font-size: 2em;
+        font-weight: bold
+    }
+    .become-class h3 {
+        padding-top: 7em;
+        padding-left: 2em;
+        color: #fff;
+        font-size: 2em;
+        font-weight: bold;
+    }
 }
 @media(max-width:320px){
 	.navbar-brand {
@@ -2227,5 +2342,12 @@ p.head_para {
         float: left;
         width: 17%;
     }
+    .become-class h3 {
+        padding-top: 7em;
+        padding-left: 2em;
+        color: #fff;
+        font-size: 2em;
+        font-weight: bold;
+    }   
 }   
   /*--//responsive--*/

@@ -4,11 +4,13 @@
     padding: 15px 15px;
     font-size: 14px;
     color: #777;
-    background: #f6f9fb;
+    background: #030e16;
+    opacity: .8;
     width: 100%;
     letter-spacing: 1px;
     border: none;
     border: 1px solid #ddd;
+    margin-top: 1em;
 }
 .contact_grid_right input[type="text"]:nth-child(2), .contact_grid_right input[type="email"] {
     margin: 1em 0 0;

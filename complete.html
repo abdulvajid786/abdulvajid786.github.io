@@ -8,7 +8,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <html lang="zxx">
 
 <head>
-	<title>Ask for new</title>
+	<title>Complete order</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="keywords" content="Downy Shoes Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
@@ -34,8 +34,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<!-- //font-awesome-icons -->
 	<link href="//fonts.googleapis.com/css?family=Montserrat:100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800"
 	    rel="stylesheet">
-	<link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800" rel="stylesheet">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -54,6 +54,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<li><a href="index.html" class="active">Home</a></li>
 							<li><a href="about.html">About</a></li>
 							<li><a href="shop.html">Shop Now</a></li>
+							<li><a href="becomeseller.html">Become seller</a></li>
 							<li><a href="contact.html">Contact</a></li>
 						</ul>
 					</nav>
@@ -95,7 +96,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 				<ul class="short">
 					<li><a href="index.html">Home</a><i>|</i></li>
-					<li><a href="shop.html">shop</a><i>|</i></li>
+					<li><a href="shop.html">Shop</a><i>|</i></li>
 					<li><a href="becomeseller.html">Become seller</a><i>|</i></li>
 					<li><a href="contact.html">Ask for new</a><i>|</i></li>
 					<li>Contact</li>
@@ -109,19 +110,19 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<!-- top Products -->
 	<div class="ads-grid_shop">
 		<div class="shop_inner_inf">
-			<h3 class="head">Contact us </h3>
-			<p class="head_para">To clear your doubts</p>
+			<h3 class="head">Complete order </h3>
+			<p class="head_para">With Full confidence</p>
 			<div class="inner_section_w3ls">
 				<div class="col-md-7 contact_grid_right">
-					<h6>Please fill this form to contact us.</h6>
-					<form id="submit-form" action="">
+					<h6>Please fill this form to complete order.</h6>
+					<form id="submit-form2" action="">
 						<div class="col-md-6 col-sm-6 contact_left_grid">
 							<input type="text" name="Name" placeholder="Name" required="">
 							<input type="email" name="Email" placeholder="Email" required="">
 						</div>
 						<div class="col-md-6 col-sm-6 contact_left_grid">
-							<input type="text" name="Telephone" placeholder="Telephone" required="">
-							
+							<input type="text" name="Telephone" placeholder="phone" required="">
+							<input type="text" name="product Code" placeholder="Product code" required="">
 						</div>
 						<div class="col-md-6 col-sm-6 contact_left_grid">
 							<input type="text" name="land mark" placeholder="land mark/local aria" required="">
@@ -132,13 +133,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<input type="text" name="State" placeholder="State" required="">
 						</div>
 						<div class="col-md-6 col-sm-6 contact_left_grid">
-							<input type="text" name="contry" placeholder="contry" required="">
+							<input type="text" name="Contry" placeholder="contry" required="">
 						</div>
 						<div class="col-md-6 col-sm-6 contact_left_grid">
-							<input type="text" name="pin code" placeholder="Pin code" required="">
+							<input type="text" name="Pin code" placeholder="Pin code" required="">
 						</div>
 						<div class="clearfix"> </div>
-						<textarea name="message" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'message...';}" required="">I need for ...</textarea>
+						<textarea name="Home address" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Home address...';}" required="">Home Address...</textarea>
 						<input type="submit" value="Submit">
 						<input type="reset" value="Clear">
 					</form>
@@ -286,8 +287,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<p class="copy-right-w3ls-agileits">&copy 2020 Prdha mall. All rights reserved | Design by <a href="https//wa.me/+917025734927">A V Media</a></p>
 		</div>
 	</div>
-	</div>
-	<!-- //footer -->
+	</div>	<!-- //footer -->
 
 	<!-- js -->
 	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
@@ -354,7 +354,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		});
 	</script>
 	<!-- //end-smoth-scrolling -->
-	<script>
+    <script type="text/javascript" src="js/bootstrap-3.1.1.min.js"></script>
+    <script>
         $("#submit-form").submit((e)=>{
             e.preventDefault()
             $.ajax({
@@ -373,8 +374,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             })
         })
     </script>
-
-
 
 
 </body>

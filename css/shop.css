@@ -642,7 +642,8 @@ input#amount1 {
 .shop_left,.shop_right {
     padding: 0;
 	margin-bottom: 1.3em; 
-    position: relative;
+	position: relative;
+	float: left;
 }
 .shop_left.shp,.shop_right.shp {
     margin-bottom: 0;
