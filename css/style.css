@@ -797,7 +797,7 @@ li.dropdown.act a.w3_icons_act {
     font-size: 30px;
     text-align: left;
     color: #FFF;
-    margin-bottom: 20px;
+    margin-bottom: 0;
     font-weight: 700;
     letter-spacing: 1px;
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.41);
@@ -1601,7 +1601,7 @@ p.head_para {
         width: 75%;
     }
     .become-class h3 {
-        padding-top: 7em;
+        padding-top: 3em;
         padding-left: 2em;
         color: #fff;
         font-size: 2em;
@@ -1728,13 +1728,10 @@ p.head_para {
         width:50%;
         margin-bottom: 10px;
     }
-    .become-class h3 {
+    .become-class {
         padding-top: 7em;
         padding-left: 2em;
-        color: #fff;
-        font-size: 2em;
-        font-weight: bold;
-    }
+        height:1000px;
     
     
     
@@ -2281,21 +2278,22 @@ p.head_para {
         letter-spacing: 1px;
     }
     .become-class h3, p, .become-btn{
-        padding-top: 7em;
-        padding-left: 2em;
+        padding-top: .05em;
+        padding-left: 1em;
         color: #fff;
         font-size: 2em;
-        font-weight: bold
+        font-weight: bold;
+        margin-left: 0;
     }
     .become-class h3 {
-        padding-top: 7em;
+        padding-top: 3em;
         padding-left: 2em;
         color: #fff;
         font-size: 2em;
         font-weight: bold;
     }
 }
-@media(max-width:320px){
+@media(max-width:300px){
 	.navbar-brand {
         font-size: 0.45em;
         height: 38px;
@@ -2343,7 +2341,7 @@ p.head_para {
         width: 17%;
     }
     .become-class h3 {
-        padding-top: 7em;
+        padding-top: 5em;
         padding-left: 2em;
         color: #fff;
         font-size: 2em;
