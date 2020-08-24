@@ -2382,7 +2382,7 @@ var currencies = {
     HUF: { before: 'Ft' },
     IDR: { before: 'Rp' },
     ILS: { before: '\u20AA' },
-    INR: { before: 'Rs.' },
+    INR: { before: 'Rs', code: true },
     ISK: { before: 'kr' },
     JMD: { before: 'J$' },
     JPY: { before: '\u00A5' },
@@ -2418,7 +2418,7 @@ var currencies = {
 
 
 module.exports = function currency(amount, config) {
-    var code = config && config.currency || 'USD',
+    var code = config && config.currency || 'INR',
         value = currencies[code],
         before = value.before || '',
         after = value.after || '',
