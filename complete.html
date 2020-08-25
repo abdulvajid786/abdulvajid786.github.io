@@ -115,60 +115,36 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="inner_section_w3ls">
 				<div class="col-md-7 contact_grid_right">
 					<h6>Please fill this form to complete order.</h6>
-					<form id="submit-form2" action="">
+					<form id="submit-form" action="">
 						<div class="col-md-6 col-sm-6 contact_left_grid">
 							<input type="text" name="Name" placeholder="Name" required="">
+						</div>
+						<div class="col-md-6 col-sm-6 contact_left_grid">
 							<input type="email" name="Email" placeholder="Email" required="">
 						</div>
 						<div class="col-md-6 col-sm-6 contact_left_grid">
-							<select id="country1"  class="frm-field" required>
-								<option value="null">pick your size</option>
-								<option value="null">35 inches</option>
-								<option value="null">36 inches</option>
-								<option value="null">37 inches</option>
-								<option value="null">38 inches</option>
-								<option value="null">39 inches</option>
-								<option value="null">40 inches</option>
-								<option value="null">41 inches</option>
-								<option value="null">42 inches</option>
-								<option value="null">43 inches</option>
-								<option value="null">44 inches</option>
-								<option value="null">45 inches</option>
-								<option value="null">46 inches</option>
-								<option value="null">47 inches</option>
-								<option value="null">48 inches</option>
-								<option value="null">49 inches</option>
-								<option value="null">50 inches</option>
-								<option value="null">51 inches</option>
-								<option value="null">52 inches</option>
-								<option value="null">53 inches</option>
-								<option value="null">54 inches</option>
-								<option value="null">55 inches</option>
-								<option value="null">56 inches</option>
-								<option value="null">57 inches</option>
-								<option value="null">58 inches</option>
-								<option value="null">59 inches</option>
-								<option value="null">60 inches</option>
-								
-							</select>
+							<input type="text" name="phone Number" placeholder="phone number" required="">
+							
 						</div>
 						<div class="col-md-6 col-sm-6 contact_left_grid">
-							<select id="country1"  class="frm-field">
-								<option value="null">pick your color</option>
-																
-							</select>
+							<input type="text" name="product code" placeholder="product code" required="">
 						</div>
-						<div class="clearfix"> </div>
+						<div class="col-md-6 col-sm-6 contact_left_grid">
+							<input type="text" name="color" placeholder="color" required="">
+						</div>
 						<div class="col-md-6 col-sm-6 contact_left_grid">
 							<input type="text" name="size" placeholder="size in inches" required="">
-							<input type="text" name="" placeholder="city" required="">
 						</div>
 						<div class="col-md-6 col-sm-6 contact_left_grid">
 							<input type="text" name="land mark" placeholder="land mark/local aria" required="">
+						</div>
+						<div class="col-md-6 col-sm-6 contact_left_grid">
 							<input type="text" name="city" placeholder="city" required="">
 						</div>
 						<div class="col-md-6 col-sm-6 contact_left_grid">
 							<input type="text" name="District" placeholder="District" required="">
+						</div>
+						<div class="col-md-6 col-sm-6 contact_left_grid">
 							<input type="text" name="State" placeholder="State" required="">
 						</div>
 						<div class="col-md-6 col-sm-6 contact_left_grid">
@@ -177,7 +153,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<div class="col-md-6 col-sm-6 contact_left_grid">
 							<input type="text" name="Pin code" placeholder="Pin code" required="">
 						</div>
-						<div class="clearfix"> </div>
 						<textarea name="Home address" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Home address...';}" required="">Home Address...</textarea>
 						<input type="submit" value="Submit">
 						<input type="reset" value="Clear">
@@ -403,7 +378,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 method:"post",
                 success:function (response){
                     alert("Form submitted successfully")
-                    window.location.reload()
                     window.location.href="thanks.html"
                 },
                 error:function (err){
